@@ -1,5 +1,4 @@
 class Solution:
-    
     def countSegments(self, s: str) -> int:
         seg_ls = s.strip(" ").split(" ")
         print(seg_ls, "\n\n\n")
