@@ -1,5 +1,8 @@
 class Solution:
     def countSegments(self, s: str) -> int:
+        return len(s.split()) # by default splits on whitespace
+    
+        '''
         seg_ls = s.strip(" ").split(" ")
         print(seg_ls, "\n\n\n")
         count = 0
@@ -8,6 +11,6 @@ class Solution:
                 continue
             else: count +=1
         return count
-    
+    '''
     
         
