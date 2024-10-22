@@ -1,5 +1,6 @@
 class Solution:
     def isValid(self, s: str) -> bool:
+        
         ''' HINT 1: USE A STACK OF CHARACTERS (created using a LIST) '''
         stack = [] # init empty stack 
         open_dict = { '(':')' , '{':'}', '[':']' }
