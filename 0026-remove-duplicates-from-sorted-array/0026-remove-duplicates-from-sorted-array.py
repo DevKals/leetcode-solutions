@@ -4,8 +4,7 @@ class Solution:
         if not nums: return 0 
         
         # HINT: 2 ptr approach = SLOW (track uniques), FAST (runs thru list and compares adj elts)
-        slow, fast = 0, 1
-        
+        slow, fast = 0, 1      
         while fast < len(nums):
             # Inc slow only if unique elt found - inc fast always. 
             if nums[slow] != nums[fast]:        
